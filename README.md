@@ -10,6 +10,6 @@ input video, output for each slam project
 ### requriements
 implemented with venv.
 * opencv-python
-* opencv-contrib-python\n
-* matplotlib\n
+* opencv-contrib-python
+* matplotlib
 * pillow
