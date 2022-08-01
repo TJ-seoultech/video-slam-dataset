@@ -7,9 +7,9 @@ input video, output for each slam project
 2. orb slam
 
 
-requriements
+### requriements
 implemented with venv.
-opencv-python
-opencv-contrib-python
-matplotlib
-pillow
+* opencv-python
+* opencv-contrib-python\n
+* matplotlib\n
+* pillow
