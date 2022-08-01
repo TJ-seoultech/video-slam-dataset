@@ -2,6 +2,7 @@
 
 input video, output for each slam project
 
+**use test branch**
 
 1. dso slam
 2. orb slam
