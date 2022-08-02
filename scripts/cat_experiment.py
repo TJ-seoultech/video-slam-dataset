@@ -2,13 +2,18 @@ import os
 import cv2
 
 
-path = 'cat'
+path = 'galaxyA52s/20220802092558'
 images = os.listdir(path)
+print(images)
+# for image in images:
+#     src = cv2.imread('{}/{}'.format(path,image), cv2.IMREAD_COLOR)
+#     dst = cv2.resize(src, dsize=(1280,720), interpolation=cv2.INTER_AREA)
+#     cv2.imwrite('./cat/images/{}'.format(image), dst)
 
-for image in images:
-    src = cv2.imread('{}/{}'.format(path,image), cv2.IMREAD_COLOR)
-    dst = cv2.resize(src, dsize=(640,360), interpolation=cv2.INTER_AREA)
-    cv2.imwrite('./cat/images/{}'.format(image), dst)
+
+src = cv2.imread('{}/{}'.format(path,'vignette.png'), cv2.IMREAD_COLOR)
+dst = cv2.resize(src, dsize=(1280,720), interpolation=cv2.INTER_AREA)
+cv2.imwrite('./cat/images/{}'.format('vignette.png'), dst)
 
 
 '''
