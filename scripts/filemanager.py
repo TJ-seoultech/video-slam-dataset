@@ -80,7 +80,7 @@ def extract(filepath,slam,dir):
     
 
 
-def resize(datasetName, dir, width=640, height=360):
+def resize(datasetName, dir, width=1280, height=720):
     path = '{}/{}'.format(dir,datasetName)
     images = os.listdir(path+'/original_images')
     os.mkdir(path+'/reduced_images')
