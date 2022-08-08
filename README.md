@@ -13,3 +13,7 @@ implemented with venv.
 * opencv-contrib-python
 * matplotlib
 * pillow
+
+## run
+temrminal
+$ python main.py -file video_path.mp4 -dir device_name(optional)
